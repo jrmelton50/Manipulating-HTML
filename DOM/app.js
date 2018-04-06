@@ -18,9 +18,6 @@ objective5();
 // OBJECTIVE 6
 objective6();
 
-
-
-
 // Functions to run each objective so I can use the same variables without accidently overwriting one.
 function objective1() {
     var div = makeHeaderAndDivAndReturnDiv(true);
@@ -130,10 +127,3 @@ function changeColor() {
     var blueNumberValue = Math.floor(Math.random() * 255);
     this.style.color = "rgb(" + redNumberValue + ", " + greenNumberValue + ", " + blueNumberValue + ")";
 }
-
-
-
-
-
-// Didn't work. Leaving it here for reference in case it's needed later
-// document.body.insertBefore(div, objective2Content);
